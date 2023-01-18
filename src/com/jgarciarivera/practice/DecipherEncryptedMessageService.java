@@ -20,7 +20,7 @@ public class DecipherEncryptedMessageService {
             if (alphabet.containsKey(letter)) {
                 int letterIndex = alphabet.get(letter) - cipher[cipherIndex];
                 if (letterIndex < 1) {
-                    letterIndex = letterIndex + 26;
+                    letterIndex = letterIndex + alphabet.size();
                 }
                 translatedLetter = invertedAlphabet.get(letterIndex);
                 cipherIndex++;
