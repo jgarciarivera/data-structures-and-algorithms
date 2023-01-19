@@ -1,10 +1,13 @@
 package com.jgarciarivera.practice;
 
 // Determines the max value of a subarray of size k in an array size n
+// Demonstrates the sliding window technique with a fixed size window
 public class MaxValueSubarray {
 
     public static void main(String[] args) {
-        int result = findMaxValue(new int[] {4, 2, 1, 7, 8, 1, 2, 8, 1, 0}, 3);
+        int[] array = {4, 2, 1, 7, 8, 1, 2, 8, 1, 0};
+        int subarraySize = 3;
+        int result = findMaxValue(array, subarraySize);
         System.out.println("Max value: " + result);
     }
     public static int findMaxValue(int[] array, int subarraySize) {
