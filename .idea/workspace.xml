@@ -9,8 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bb51d39-37fe-4c4f-8581-a6b4903d9b56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/jgarciarivera/practice/MaxValueSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jgarciarivera/practice/MaxValueSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jgarciarivera/practice/MaxValueSubarray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
