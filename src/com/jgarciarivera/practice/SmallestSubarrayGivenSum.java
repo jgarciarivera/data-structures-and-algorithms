@@ -1,7 +1,7 @@
 package com.jgarciarivera.practice;
 
 // Determines the length of the smallest subarray whose sum is greater than or equal to specified target
-// Demonstrates the sliding window technique with a dynamica sized window
+// Demonstrates the sliding window technique with a dynamic sized window
 public class SmallestSubarrayGivenSum {
 
     public static void main(String[] args) {
