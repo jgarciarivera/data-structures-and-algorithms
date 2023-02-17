@@ -10,7 +10,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3bb51d39-37fe-4c4f-8581-a6b4903d9b56" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jgarciarivera/practice/DecipherEncryptedMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jgarciarivera/practice/DecipherEncryptedMessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jgarciarivera/datastructures/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jgarciarivera/datastructures/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jgarciarivera/practice/DecipherEncryptedMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jgarciarivera/practice/EncryptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/jgarciarivera/practice/DecipherEncryptedMessageServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/jgarciarivera/practice/EncryptionServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +70,9 @@
       <recent name="com.jgarciarivera.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SmallestSubarrayGivenSum">
-    <configuration name="DecipherEncryptedMessageService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.DecipherEncryptedMessageService" />
+  <component name="RunManager" selected="JUnit.EncryptionServiceTest.EncryptionService_Decrypt_ValidString_ReturnsExpectedMessage">
+    <configuration name="EncryptionService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.EncryptionService" />
       <module name="data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -108,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecipherEncryptedMessageServiceTest.DecipherEncryptedMessageService_Decipher_ValidString_ReturnsExpectedMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EncryptionServiceTest.DecipherEncryptedMessageService_Decipher_ValidString_ReturnsExpectedMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +119,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jgarciarivera.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.DecipherEncryptedMessageServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.EncryptionServiceTest" />
       <option name="METHOD_NAME" value="DecipherEncryptedMessageService_Decipher_ValidString_ReturnsExpectedMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncryptionServiceTest.EncryptionService_Decrypt_ValidString_ReturnsExpectedMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jgarciarivera.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jgarciarivera.practice" />
+      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.EncryptionServiceTest" />
+      <option name="METHOD_NAME" value="EncryptionService_Decrypt_ValidString_ReturnsExpectedMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,10 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EncryptionServiceTest.EncryptionService_Decrypt_ValidString_ReturnsExpectedMessage" />
         <item itemvalue="Application.SmallestSubarrayGivenSum" />
         <item itemvalue="Application.MaxValueSubarray" />
-        <item itemvalue="JUnit.DecipherEncryptedMessageServiceTest.DecipherEncryptedMessageService_Decipher_ValidString_ReturnsExpectedMessage" />
-        <item itemvalue="Application.DecipherEncryptedMessageService" />
+        <item itemvalue="JUnit.EncryptionServiceTest.DecipherEncryptedMessageService_Decipher_ValidString_ReturnsExpectedMessage" />
+        <item itemvalue="Application.EncryptionService" />
       </list>
     </recent_temporary>
   </component>

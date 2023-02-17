@@ -1,39 +1,41 @@
 package com.jgarciarivera.practice;
 import java.util.*;
 
-// Code to decipher encrypted messages from To Hunt A Killer: Death At The Dive Bar game
-// TODO: Remove this comment. Testing issue with version control
-public class DecipherEncryptedMessageService {
+// Code to decrypt encrypted messages from To Hunt A Killer: Death At The Dive Bar game
+public class EncryptionService {
 
-    public String decipher(String original, int[] cipher) {
+    public String decrypt(String message, int[] cipher) {
+
         HashMap<Character, Integer> alphabet = initializeAlphabet();
         HashMap<Integer, Character> invertedAlphabet = initializeInvertedAlphabet();
         int cipherIndex = 0;
-        String result = "";
+        String decrypted = "";
 
-        for (char letter : original.toCharArray()) {
+        for (char letter : message.toCharArray()) {
+
             if (cipherIndex == cipher.length) {
                 cipherIndex = 0;
             }
 
-            char translatedLetter = letter;
+            char translated = letter;
 
             if (alphabet.containsKey(letter)) {
                 int letterIndex = alphabet.get(letter) - cipher[cipherIndex];
                 if (letterIndex < 1) {
                     letterIndex = letterIndex + alphabet.size();
                 }
-                translatedLetter = invertedAlphabet.get(letterIndex);
+                translated = invertedAlphabet.get(letterIndex);
                 cipherIndex++;
             }
-            result = result + translatedLetter;
+
+            decrypted = decrypted + translated;
         }
 
-        return result;
+        return decrypted;
     }
 
     private HashMap<Character, Integer> initializeAlphabet() {
-        HashMap<Character, Integer> alphabet = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> alphabet = new HashMap<>();
         alphabet.put('A', 1);
         alphabet.put('B', 2);
         alphabet.put('C', 3);
@@ -64,33 +66,33 @@ public class DecipherEncryptedMessageService {
     }
 
     private HashMap<Integer, Character> initializeInvertedAlphabet() {
-        HashMap<Integer, Character> alphabet = new HashMap<Integer, Character>();
-        alphabet.put(1, 'A');
-        alphabet.put(2, 'B');
-        alphabet.put(3, 'C');
-        alphabet.put(4, 'D');
-        alphabet.put(5, 'E');
-        alphabet.put(6, 'F');
-        alphabet.put(7, 'G');
-        alphabet.put(8, 'H');
-        alphabet.put(9, 'I');
-        alphabet.put(10, 'J');
-        alphabet.put(11, 'K');
-        alphabet.put(12, 'L');
-        alphabet.put(13, 'M');
-        alphabet.put(14, 'N');
-        alphabet.put(15, 'O');
-        alphabet.put(16, 'P');
-        alphabet.put(17, 'Q');
-        alphabet.put(18, 'R');
-        alphabet.put(19, 'S');
-        alphabet.put(20, 'T');
-        alphabet.put(21, 'U');
-        alphabet.put(22, 'V');
-        alphabet.put(23, 'W');
-        alphabet.put(24, 'X');
-        alphabet.put(25, 'Y');
-        alphabet.put(26, 'Z');
-        return alphabet;
+        HashMap<Integer, Character> inverted = new HashMap<>();
+        inverted.put(1, 'A');
+        inverted.put(2, 'B');
+        inverted.put(3, 'C');
+        inverted.put(4, 'D');
+        inverted.put(5, 'E');
+        inverted.put(6, 'F');
+        inverted.put(7, 'G');
+        inverted.put(8, 'H');
+        inverted.put(9, 'I');
+        inverted.put(10, 'J');
+        inverted.put(11, 'K');
+        inverted.put(12, 'L');
+        inverted.put(13, 'M');
+        inverted.put(14, 'N');
+        inverted.put(15, 'O');
+        inverted.put(16, 'P');
+        inverted.put(17, 'Q');
+        inverted.put(18, 'R');
+        inverted.put(19, 'S');
+        inverted.put(20, 'T');
+        inverted.put(21, 'U');
+        inverted.put(22, 'V');
+        inverted.put(23, 'W');
+        inverted.put(24, 'X');
+        inverted.put(25, 'Y');
+        inverted.put(26, 'Z');
+        return inverted;
     }
 }
