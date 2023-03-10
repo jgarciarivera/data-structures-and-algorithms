@@ -9,12 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bb51d39-37fe-4c4f-8581-a6b4903d9b56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/com/jgarciarivera/practice/TicTacToe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/jgarciarivera/practice/TicTacToeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jgarciarivera/practice/RomanNumeralConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/jgarciarivera/practice/RomanNumeralConverterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jgarciarivera/practice/EncryptionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jgarciarivera/practice/EncryptionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jgarciarivera/practice/EncryptionServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/jgarciarivera/practice/EncryptionServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/jgarciarivera/practice/EncryptionServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/jgarciarivera/practice/EncryptionServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jgarciarivera/practice/TicTacToe$Peg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jgarciarivera/practice/TicTacToe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/jgarciarivera/practice/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jgarciarivera/practice/TicTacToe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +70,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jgarciarivera.practice" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.jgarciarivera.practice" />
     </key>
@@ -78,8 +81,8 @@
       <recent name="com.jgarciarivera.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TicTacToeTest.noWinByRowMatch">
-    <configuration name="TicTacToeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RomanNumeralConverterTest.invalidAndValidSymbols_throwsIllegalArgumentException">
+    <configuration name="RomanNumeralConverterTest.emptyString_returns0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -88,29 +91,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jgarciarivera.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.TicTacToeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicTacToeTest.noWinByRowMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jgarciarivera.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jgarciarivera.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.TicTacToeTest" />
-      <option name="METHOD_NAME" value="noWinByRowMatch" />
+      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.RomanNumeralConverterTest" />
+      <option name="METHOD_NAME" value="emptyString_returns0" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToeTest.placePegAtInvalidLocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanNumeralConverterTest.invalidAndValidSymbols_throwsIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -119,14 +107,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jgarciarivera.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.TicTacToeTest" />
-      <option name="METHOD_NAME" value="placePegAtInvalidLocation" />
+      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.RomanNumeralConverterTest" />
+      <option name="METHOD_NAME" value="invalidAndValidSymbols_throwsIllegalArgumentException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToeTest.placePegOutOfColumnRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanNumeralConverterTest.romanNumeral_MCMXLIV_returns1944" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -135,14 +123,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jgarciarivera.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.TicTacToeTest" />
-      <option name="METHOD_NAME" value="placePegOutOfColumnRange" />
+      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.RomanNumeralConverterTest" />
+      <option name="METHOD_NAME" value="romanNumeral_MCMXLIV_returns1944" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToeTest.winByRowMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanNumeralConverterTest.romanNumeral_MMMDCCXXIV_returns3724" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
@@ -151,8 +139,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jgarciarivera.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.TicTacToeTest" />
-      <option name="METHOD_NAME" value="winByRowMatch" />
+      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.RomanNumeralConverterTest" />
+      <option name="METHOD_NAME" value="romanNumeral_MMMDCCXXIV_returns3724" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanNumeralConverterTest.romanNumeral_MMVI_returns2006" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jgarciarivera.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jgarciarivera.practice" />
+      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.RomanNumeralConverterTest" />
+      <option name="METHOD_NAME" value="romanNumeral_MMVI_returns2006" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TicTacToeTest.noWinByRowMatch" />
-        <item itemvalue="JUnit.TicTacToeTest.winByRowMatch" />
-        <item itemvalue="JUnit.TicTacToeTest" />
-        <item itemvalue="JUnit.TicTacToeTest.placePegOutOfColumnRange" />
-        <item itemvalue="JUnit.TicTacToeTest.placePegAtInvalidLocation" />
+        <item itemvalue="JUnit.RomanNumeralConverterTest.invalidAndValidSymbols_throwsIllegalArgumentException" />
+        <item itemvalue="JUnit.RomanNumeralConverterTest.emptyString_returns0" />
+        <item itemvalue="JUnit.RomanNumeralConverterTest.romanNumeral_MMMDCCXXIV_returns3724" />
+        <item itemvalue="JUnit.RomanNumeralConverterTest.romanNumeral_MMVI_returns2006" />
+        <item itemvalue="JUnit.RomanNumeralConverterTest.romanNumeral_MCMXLIV_returns1944" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +190,11 @@
           <url>file://$PROJECT_DIR$/test/com/jgarciarivera/practice/TicTacToeTest.java</url>
           <line>18</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jgarciarivera/practice/RomanNumeralConverter.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
