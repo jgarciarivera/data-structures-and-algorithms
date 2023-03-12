@@ -9,12 +9,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bb51d39-37fe-4c4f-8581-a6b4903d9b56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jgarciarivera/practice/RomanNumeralConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/jgarciarivera/practice/RomanNumeralConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jgarciarivera/practice/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jgarciarivera/practice/LambdaPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jgarciarivera/practice/StreamsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/GreetingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jgarciarivera/practice/TicTacToe$Peg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/jgarciarivera/practice/TicTacToe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/jgarciarivera/practice/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jgarciarivera/practice/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures-and-algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures-and-algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +66,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
       <recent name="com.jgarciarivera.practice" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -81,82 +83,51 @@
       <recent name="com.jgarciarivera.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RomanNumeralConverterTest.invalidAndValidSymbols_throwsIllegalArgumentException">
-    <configuration name="RomanNumeralConverterTest.emptyString_returns0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GreetingTest">
+    <configuration name="GreetingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jgarciarivera.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jgarciarivera.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.RomanNumeralConverterTest" />
-      <option name="METHOD_NAME" value="emptyString_returns0" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GreetingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreetingTest.givenMultipleNames_returnsHelloAmyBrianAndCharlotte" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GreetingTest" />
+      <option name="METHOD_NAME" value="givenMultipleNames_returnsHelloAmyBrianAndCharlotte" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanNumeralConverterTest.invalidAndValidSymbols_throwsIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreetingTest.givenNull_returnsHelloMyFriend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jgarciarivera.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jgarciarivera.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.RomanNumeralConverterTest" />
-      <option name="METHOD_NAME" value="invalidAndValidSymbols_throwsIllegalArgumentException" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GreetingTest" />
+      <option name="METHOD_NAME" value="givenNull_returnsHelloMyFriend" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanNumeralConverterTest.romanNumeral_MCMXLIV_returns1944" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreetingTest.givenTwoNames_returnsHelloJillAndJane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jgarciarivera.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jgarciarivera.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.RomanNumeralConverterTest" />
-      <option name="METHOD_NAME" value="romanNumeral_MCMXLIV_returns1944" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GreetingTest" />
+      <option name="METHOD_NAME" value="givenTwoNames_returnsHelloJillAndJane" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanNumeralConverterTest.romanNumeral_MMMDCCXXIV_returns3724" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreetingTest.givenUppercaseName_returnsUppercaseGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jgarciarivera.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jgarciarivera.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.RomanNumeralConverterTest" />
-      <option name="METHOD_NAME" value="romanNumeral_MMMDCCXXIV_returns3724" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RomanNumeralConverterTest.romanNumeral_MMVI_returns2006" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jgarciarivera.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jgarciarivera.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.jgarciarivera.practice.RomanNumeralConverterTest" />
-      <option name="METHOD_NAME" value="romanNumeral_MMVI_returns2006" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GreetingTest" />
+      <option name="METHOD_NAME" value="givenUppercaseName_returnsUppercaseGreeting" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RomanNumeralConverterTest.invalidAndValidSymbols_throwsIllegalArgumentException" />
-        <item itemvalue="JUnit.RomanNumeralConverterTest.emptyString_returns0" />
-        <item itemvalue="JUnit.RomanNumeralConverterTest.romanNumeral_MMMDCCXXIV_returns3724" />
-        <item itemvalue="JUnit.RomanNumeralConverterTest.romanNumeral_MMVI_returns2006" />
-        <item itemvalue="JUnit.RomanNumeralConverterTest.romanNumeral_MCMXLIV_returns1944" />
+        <item itemvalue="JUnit.GreetingTest" />
+        <item itemvalue="JUnit.GreetingTest.givenMultipleNames_returnsHelloAmyBrianAndCharlotte" />
+        <item itemvalue="JUnit.GreetingTest.givenTwoNames_returnsHelloJillAndJane" />
+        <item itemvalue="JUnit.GreetingTest.givenUppercaseName_returnsUppercaseGreeting" />
+        <item itemvalue="JUnit.GreetingTest.givenNull_returnsHelloMyFriend" />
       </list>
     </recent_temporary>
   </component>
@@ -190,11 +161,6 @@
           <url>file://$PROJECT_DIR$/test/com/jgarciarivera/practice/TicTacToeTest.java</url>
           <line>18</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jgarciarivera/practice/RomanNumeralConverter.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
